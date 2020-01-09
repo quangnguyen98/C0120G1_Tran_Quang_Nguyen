@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo4</title>
+</head>
+<body>
+<script>
+    let User = prompt('User');
+    if (User == 'Admin') {
+        let Pass = prompt('pass');
+        if (Pass == 'TheMaster') {
+            alert('Welcome');
+        } else if (Pass == null) {
+            alert('Canceled');
+        } else {
+            alert('WrongPassword');
+        }
+    } else if (User == null) {
+        alert('Canceled');
+    } else {
+        alert('Idontknowu');
+    }
+</script>
+</body>
+</html>
